@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  text-align: center;
+  background-image: url(assets/Site-background-light.webp);
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  height: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+p {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 2rem;
+  margin: 10px;
+}
+ol,
+ul {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+li {
+  margin: 5px;
+}
+a {
+  font-size: 3rem;
+}
+.container {
+  display: block;
+  margin: auto;
+  padding: 52px;
+  margin-top: 1rem;
+  width: max(70%, 400px);
+  border: 4px solid #04aa6d;
+  text-align: left;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 48%);
+  overflow: hidden;
+}
+.image {
+  width: 500px;
+  border: 2px solid #04aa6d;
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 48%);
+}
+.btn {
+  margin: 20px;
+  border: 2px solid #04aa6d;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin-left: 20px;
+  color: #000;
+  background: rgba(255, 255, 255, 0.569);
+}
+.btn:hover {
+  color: #fff;
+  background: #04aa6d;
+}
